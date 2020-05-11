@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 1%;
+}
+
+.container ::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.riquadrosin, .riquadromid{
+  float: left;
+  /* debug */
+  width: 23%;
+  height: 300px;
+  background-color: #c8a2c8;
+}
+
+.riquadromid{
+  width: 45%;
+  margin: 0 2%;
+  /* debug */
+  height: 400px;
+  background-color: #8f00ff;
+}
+
+.riquadrodes1, .riquadrodes2{
+  width: 27%;
+  float: right;
+  margin: 3px;
+  /* debug */
+  height: 195px;
+  background-color: #c8a2c8;
+}
+footer{
+  clear: both;
+  height: 100px;
+  background-color: #99cbff;
+}
